@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/EmailChapter14Final">
+    <!-- Cấu hình DataSource -->
+    <Resource name="jdbc/murach"
+              auth="Container"
+              type="javax.sql.DataSource"
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              url="jdbc:mysql://azure-server-murach-123.mysql.database.azure.com:3306/murach1?zeroDateTimeBehavior=CONVERT_TO_NULL"
+              username="ductho"
+              password="Tho0411@"
+              maxTotal="20"
+              maxIdle="10"
+              maxWaitMillis="-1"/>
+    
+    <!-- Cấu hình Email Session cho Gmail -->
+    <Resource name="mail/Session"
+              auth="Container"
+              type="javax.mail.Session"
+              mail.smtp.host="smtp.gmail.com"
+              mail.smtp.port="587"
+              mail.smtp.auth="true"
+              mail.smtp.starttls.enable="true"
+              username="nguyenhuuductho0411@gmail.com"
+              password="Tho2004@"/>
+</Context>

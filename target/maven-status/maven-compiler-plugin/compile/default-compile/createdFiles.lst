@@ -1,0 +1,10 @@
+com\mycompany\emailchapter14final\resources\JakartaEE10Resource.class
+com\murach\data\ConnectionPool.class
+com\murach\util\MailUtilLocal.class
+com\mycompany\emailchapter14final\JakartaRestConfiguration.class
+com\murach\data\UserDB.class
+com\murach\util\MailUtilYahoo.class
+com\murach\entity\User.class
+com\lordbao\util\EmailUtil.class
+com\murach\data\DBUtil.class
+com\murach\email\EmailListServlet.class
