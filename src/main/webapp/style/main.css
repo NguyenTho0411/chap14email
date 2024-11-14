@@ -1,44 +1,53 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
-*/
-/* 
-    Created on : Nov 12, 2024, 7:50:56 PM
-    Author     : DELL
-*/
-
 /* The styles for the elements */
 body { 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 85%;
-    margin-left: 2em;
-    margin-right: 2em;
+    margin: 2em auto;
     width: 400px;
+    background-color: #f9f9f9; /* Thêm màu nền nhẹ nhàng */
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Tạo hiệu ứng đổ bóng */
 }
 h1 {     
     font-size: 140%;
-    color: teal;
-    margin-bottom: .5em;    
-}
-h2 {     
-    font-size: 120%;
-    color: teal;
-    margin-bottom: .5em;    
+    color: #008080;
+    margin-bottom: 1em;
+    text-align: center;
 }
 label {
     float: left;
-    width: 7em;
+    width: 8em;
     margin-bottom: 0.5em;
     font-weight: bold;
+    color: #333;
 }
-input[type="text"], input[type="email"] {  /* An attribute selector */
+input[type="text"], input[type="email"] {
     width: 15em;
-    margin-left: 0.5em;    
-    margin-bottom: 0.5em;
+    margin-left: 0.5em;
+    padding: 0.25em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    margin-top: 1em;
+    background-color: #008080;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 90%;
+}
+input[type="submit"]:hover {
+    background-color: #006666;
 }
 span {
-    margin-left: 0.5em;    
+    margin-left: 0.5em;
+    display: inline-block;
     margin-bottom: 0.5em;    
+    color: #555;
 }
 br {
     clear: both;
@@ -49,5 +58,5 @@ br {
     padding-top: 0.25em;
 }
 .margin_left {
-    margin-left: 0.5em;
+    margin-left: 8.5em; /* Căn chỉnh nút để phù hợp với label */
 }
